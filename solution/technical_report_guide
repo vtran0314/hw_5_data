@@ -1,0 +1,86 @@
+Guide for Writing the Technical Report
+
+When crafting the technical portion of your report, it's essential to present your findings in a clear, structured, and logical manner. Below is a recommended structure along with guidance on what to include in each section:
+
+    Title Page
+        Title: Clearly state the title of your report.
+        Author: Your name.
+        Course/Department: Relevant academic information.
+        Date: Submission date.
+
+    Table of Contents
+        List all sections and subsections with page numbers for easy navigation.
+
+    Introduction
+        Purpose: Briefly describe the purpose of the report.
+        Scope: Outline what the report will cover, including the objectives of the CTF challenge.
+        Overview: Provide a high-level summary of the methods and tools used.
+
+    Background Information
+        Capture the Flag (CTF) Explained: Expand slightly on the overview to provide context.
+        Binary Exploitation Basics: Introduce key concepts related to binary exploitation to help the reader understand the technical sections.
+
+    Tools and Environment
+        Software Tools: List and describe the tools you used (e.g., disassemblers like IDA Pro or Ghidra, debuggers, hex editors).
+        Hardware (if applicable): Mention any specific hardware used, such as microcontrollers.
+        Setup: Describe your working environment, including operating systems and any specific configurations.
+
+    Methodology
+        Initial Analysis:
+            Describe how you began analyzing the provided binary files.
+            Explain the purpose of each file (binary.elf, binary.hdr, etc.) and how they assisted in your analysis.
+        Reverse Engineering:
+            Detail the steps taken to understand the program’s functionality.
+            Discuss how you interpreted the disassembled code and identified potential vulnerabilities.
+        Identifying Vulnerabilities:
+            Explain the process of locating bugs or weaknesses within the binary that could be exploited.
+            Provide reasoning for why certain parts of the code were targeted.
+
+    Exploitation Process
+        Exploiting the First Flag:
+            Step-by-step account of how you exploited the first vulnerability to retrieve the first flag.
+            Include screenshots or code snippets if they help clarify the process.
+        Exploiting the Second Flag:
+            Similar detailed explanation for the second flag.
+        Exploiting the Third Flag:
+            Detailed steps for the third flag.
+        Challenges Faced:
+            Discuss any obstacles encountered during exploitation and how you overcame them.
+
+    Results
+        Flags Retrieved: List all the flags you successfully captured.
+        Verification: Explain how you verified that the flags were correctly retrieved.
+        Impact: Discuss the significance of each vulnerability exploited.
+
+    Discussion
+        Analysis of Vulnerabilities:
+            Provide a deeper analysis of the vulnerabilities found, including their types (e.g., buffer overflow, format string vulnerability).
+            Discuss why these vulnerabilities exist in the code and potential real-world implications.
+        Lessons Learned:
+            Reflect on what you learned through this challenge.
+            Mention any new skills or knowledge acquired.
+
+    Conclusion
+        Summarize the key points of your report.
+        Reiterate the importance of binary exploitation in cybersecurity.
+        Suggest potential improvements or future work related to the challenge.
+
+    References
+        Cite all the resources, tools, tutorials, and documentation you referred to during the challenge and report writing.
+
+    Appendices (if necessary)
+        Include any additional material that supports your report, such as extended code snippets, logs, or detailed configurations.
+
+Additional Tips:
+
+    Clarity and Simplicity: Since the report is intended for readers without expertise in binary exploitation, avoid overly technical jargon. When technical terms are necessary, provide clear explanations or definitions.
+
+    Visual Aids: Use diagrams, flowcharts, or screenshots to illustrate complex processes or findings. Visuals can make technical information more digestible.
+
+    Logical Flow: Ensure that each section logically leads to the next. The report should tell a coherent story from the initial analysis to the final results.
+
+    Proofreading: Carefully proofread your report to eliminate grammatical errors and ensure clarity. Consider having a peer review it to provide feedback on its comprehensibility.
+
+    Documentation: Keep detailed notes during your challenge-solving process. These notes will be invaluable when writing the technical sections of your report.
+
+By following this structure and adhering to these guidelines, you can create a comprehensive and accessible technical report that effectively communicates your work and findings to an audience unfamiliar with binary exploitation.

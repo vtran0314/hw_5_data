@@ -1,0 +1,11 @@
+*
+!RULES
+!README.md
+!*/
+!solution/*
+!*.dsm
+!*.elf
+!*.hex
+!*.hdr
+!technical-report-guide
+!.gitignore
