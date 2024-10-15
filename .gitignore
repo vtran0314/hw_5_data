@@ -8,5 +8,6 @@
 !*.elf
 !*.hex
 !*.hdr
+!*.gpr
 !technical-report-guide
 !.gitignore
