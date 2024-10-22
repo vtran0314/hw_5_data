@@ -2,12 +2,12 @@
 !RULES
 !README.md
 !*/
-!solution/*
 !*.odt
 !*.dsm
 !*.elf
 !*.hex
 !*.hdr
 !*.gpr
+!*.png
 !technical-report-guide
 !.gitignore
